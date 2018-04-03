@@ -37,6 +37,7 @@ if(isset($_GET['person'])) {
 
 	<?php
 	// loop for set to increment from 10 to 0 which made it finish immediately, I could have gone for decrementation(i-- and i>0) but incrementation seems more intuitive here.
+	// Replaced + by .
 	// Print 10 times
 	for ($i=0; $i<10; $i++) {
 		echo '<p>'.$lipsum.'</p>';
